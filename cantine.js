@@ -57,3 +57,4 @@ if (montant_versé >= total) {
 } else {
     console.log(`Montant manquant : ${total - montant_versé} FCFA`);
 }
+//VERIFICATION DES FONCTIONS

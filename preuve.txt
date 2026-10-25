@@ -1,11 +1,12 @@
-// DECLARATION DES VARIABLES
-PS C:\Users\DELL\Documents\CANTINE-SENE-ELLA> node cantine.js
-3
-Client: Awa, code du plat : 1, quantite: 3, montant versé: 5000
-Attiéké-poisson: 1500
+Vérification du fonctionnement — cantine.js
 
-//AFFICHE DU RECAPITULATIF
-PS C:\Users\DELL\Documents\CANTINE-SENE-ELLA> node cantine.js
+Test 1
+Données utilisées :
+- Code du plat : 1
+- Quantité : 3
+- Montant versé : 5000 FCFA
+Commande exécutée : node cantine.js
+Sortie obtenue :
 3
 Client: Awa, code du plat : 1, quantite: 3, montant versé: 5000
 Attiéké-poisson: 1500
@@ -15,3 +16,37 @@ Portion 2 : Attiéké-poisson - 1500 FCFA
 Portion 3 : Attiéké-poisson - 1500 FCFA
 Total à payer : 4500 FCFA
 Monnaie à rendre : 500 FCFA
+
+Test 2
+Données utilisées :
+- Code du plat : 2
+- Quantité : 2
+- Montant versé : 3000 FCFA
+Commande exécutée : node cantine.js
+Sortie obtenue :
+2
+Client: Awa, code du plat : 2, quantite: 2, montant versé: 3000
+Riz-poulet: 2000
+Client : Awa
+Portion 1 : Riz-poulet - 2000 FCFA
+Portion 2 : Riz-poulet - 2000 FCFA
+Total à payer : 4000 FCFA
+Montant manquant : 1000 FCFA
+
+Test 3
+Données utilisées :
+- Code du plat : 3
+- Quantité : 4
+- Montant versé : 4000 FCFA
+Commande exécutée : node cantine.js
+Sortie obtenue :
+4
+Client: Awa, code du plat : 3, quantite: 4, montant versé: 4000
+Alloco-oeuf: 1000
+Client : Awa
+Portion 1 : Alloco-oeuf - 1000 FCFA
+Portion 2 : Alloco-oeuf - 1000 FCFA
+Portion 3 : Alloco-oeuf - 1000 FCFA
+Portion 4 : Alloco-oeuf - 1000 FCFA
+Total à payer : 4000 FCFA
+Monnaie à rendre : 0 FCFA
