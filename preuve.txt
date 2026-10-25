@@ -1,0 +1,7 @@
+// DECLARATION DES VARIABLES
+PS C:\Users\DELL\Documents\CANTINE-SENE-ELLA> node cantine.js
+3
+Client: Awa, code du plat : 1, quantite: 3, montant versé: 5000
+Attiéké-poisson: 1500
+
+//AFFICHE DU RECAPITULATIF
