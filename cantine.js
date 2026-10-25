@@ -44,3 +44,16 @@ function calculerTotal(prixUnitaire, quantite) {
 
 // Resultat rangé dans une variable
 const total = calculerTotal(prixUnitaire, quantite);
+
+// RECAPITULATIF
+console.log(`Client : ${client}`);
+for (let portion = 1; portion <= quantite; portion++) {
+    console.log(`Portion ${portion} : ${nomPlat} - ${prixUnitaire} FCFA`);
+}
+console.log(`Total à payer : ${total} FCFA`);
+
+if (montant_versé >= total) {
+    console.log(`Monnaie à rendre : ${montant_versé - total} FCFA`);
+} else {
+    console.log(`Montant manquant : ${total - montant_versé} FCFA`);
+}

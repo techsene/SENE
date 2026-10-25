@@ -5,3 +5,13 @@ Client: Awa, code du plat : 1, quantite: 3, montant versé: 5000
 Attiéké-poisson: 1500
 
 //AFFICHE DU RECAPITULATIF
+PS C:\Users\DELL\Documents\CANTINE-SENE-ELLA> node cantine.js
+3
+Client: Awa, code du plat : 1, quantite: 3, montant versé: 5000
+Attiéké-poisson: 1500
+Client : Awa
+Portion 1 : Attiéké-poisson - 1500 FCFA
+Portion 2 : Attiéké-poisson - 1500 FCFA
+Portion 3 : Attiéké-poisson - 1500 FCFA
+Total à payer : 4500 FCFA
+Monnaie à rendre : 500 FCFA
